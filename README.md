@@ -1,7 +1,8 @@
-Sure, let's talk about the problems I encountered when using the isValidDate() method in my `Date` Java project.
+Sure, let's talk about the problems I encountered when using the isValidDate() method in my Date-Java project.
 
 Main challenges:
-Taking into account leap years. This was probably the hardest part. I had to correctly determine whether a year is a leap year in order to handle February correctly.
+Taking into account leap years. This was probably the hardest part. 
+I had to correctly determine whether a year is a leap year in order to handle February correctly.
 I had to take into account that a year is a leap year if it is divisible by 4 but not divisible by 100, or if it is divisible by 400.
 Sometimes I got confused in the logical conditions, and this led to errors.
 
@@ -14,7 +15,7 @@ I had to consider that the user could enter invalid values ​​for the day, mo
 I had to add checks to filter out such values ​​and return false.
 
 Complexity of logic:
-Overall, the logic of the `isValidDate()` method turned out to be quite complex due to the many conditions.
+Overall, the logic of the isValidDate() method turned out to be quite complex due to the many conditions.
 I spent a lot of time debugging to make sure that the method works correctly in all cases.
 
 How I solved the problems:
